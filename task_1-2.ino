@@ -16,7 +16,7 @@ void loop()
   {
     digitalWrite(13, HIGH);
     delay(3000);
-    for(i = 0; password[i] != '\0'; i++)  //ciphing
+    for(i = 0; password[i] != '\0'; i++) 
     {
       ch = &password[i];
       if(*ch >= 'a' && *ch <= 'z'){
